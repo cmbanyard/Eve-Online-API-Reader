@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB280DDB-3277-4022-8D2C-D54BDA8F24DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>Eve online API windows APP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EveAI.Core">
+      <HintPath>.\EveAI.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EveAI.Live">
+      <HintPath>.\EveAI.Live.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip.Reduced">
+      <HintPath>.\Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="StaffDotNet.CollapsiblePanel">
+      <HintPath>..\StaffDotNet.CollapsiblePanel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CharSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharSelectForm.Designer.cs">
+      <DependentUpon>CharSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApiKeyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApiKeyForm.Designer.cs">
+      <DependentUpon>ApiKeyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucSkills.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSkills.Designer.cs">
+      <DependentUpon>ucSkills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ApiKeyForm.resx">
+      <DependentUpon>ApiKeyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharSelectForm.resx">
+      <DependentUpon>CharSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucSkills.resx">
+      <DependentUpon>ucSkills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Train1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Train2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Train3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Train4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Train5.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

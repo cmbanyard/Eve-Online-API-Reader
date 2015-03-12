@@ -1,0 +1,17 @@
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\bin\Debug\Eve online API windows APP.exe.config
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\Eve online API windows APP.csproj.GenerateResource.Cache
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\bin\Debug\Eve online API windows APP.exe
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\bin\Debug\Eve online API windows APP.pdb
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\bin\Debug\EveAI.Core.dll
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\bin\Debug\EveAI.Live.dll
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\Eve online API windows APP.exe
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\Eve online API windows APP.pdb
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\WindowsFormsApplication1.ApiKeyForm.resources
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\WindowsFormsApplication1.CharSelectForm.resources
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\WindowsFormsApplication1.MainForm.resources
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\WindowsFormsApplication1.UserControl1.resources
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\bin\Debug\StaffDotNet.CollapsiblePanel.dll
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\WindowsFormsApplication1.ucSkills.resources
+C:\Users\Craig\Documents\Eve online API windows APP\Eve online API windows APP\obj\Debug\Eve online API windows APP.csprojResolveAssemblyReference.cache
